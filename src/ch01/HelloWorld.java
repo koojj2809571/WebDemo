@@ -1,3 +1,5 @@
+package ch01;
+
 import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -6,7 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet("/HelloWorld")
+@WebServlet(name = "ch01.HelloWorld", urlPatterns = "/world")
 public class HelloWorld extends HttpServlet {
 
     private String message;

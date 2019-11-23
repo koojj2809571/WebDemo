@@ -1,7 +1,11 @@
+package ch01;
+
 import javax.servlet.*;
+import javax.servlet.annotation.WebServlet;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+@WebServlet(name = "ch01.HelloServlet", urlPatterns = "/servlet")
 public class HelloServlet implements Servlet {
 
     private ServletConfig config;
