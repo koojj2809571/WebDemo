@@ -6,7 +6,7 @@
     
     <servlet>
         <servlet-name>SimpleServlet</servlet-name>
-        <servlet-class>ch01.SimpleServlet</servlet-class>
+        <servlet-class>servlet.ch01.SimpleServlet</servlet-class>
         <load-on-startup>10</load-on-startup>
     </servlet>
     
@@ -17,7 +17,7 @@
 
     <servlet>
         <servlet-name>WelcomeServlet</servlet-name>
-        <servlet-class>ch01.WelcomeServlet</servlet-class>
+        <servlet-class>servlet.ch01.WelcomeServlet</servlet-class>
         <load-on-startup>20</load-on-startup>
     </servlet>
 

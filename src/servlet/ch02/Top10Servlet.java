@@ -1,4 +1,4 @@
-package ch02;
+package servlet.ch02;
 
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;

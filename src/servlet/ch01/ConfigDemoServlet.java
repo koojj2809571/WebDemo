@@ -1,4 +1,4 @@
-package ch01;
+package servlet.ch01;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebInitParam;
@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 @WebServlet(
-        name = "ch01.ConfigDemoServlet",
+        name = "servlet.ch01.ConfigDemoServlet",
         urlPatterns = {"/config"},
         initParams = {
                 @WebInitParam(name = "admin",value = "harry potter"),
